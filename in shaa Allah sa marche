@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tools Catalog</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    /* Basic futuristic styling */
+    body {
+        margin: 0;
+        font-family: 'Orbitron', sans-serif;
+        background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+        color: #00fff7;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 30px 0;
+        font-size: 2.5rem;
+        text-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
+    }
+
+    table {
+        width: 90%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        text-align: left;
+    }
+
+    th, td {
+        border: 1px solid #00fff7;
+        padding: 12px;
+        transition: 0.3s;
+    }
+
+    th {
+        background: rgba(0, 255, 247, 0.2);
+        text-transform: uppercase;
+    }
+
+    td:hover {
+        background: rgba(0, 255, 247, 0.1);
+    }
+
+    /* Buttons */
+    .btn {
+        display: inline-block;
+        margin: 5px;
+        padding: 10px 20px;
+        color: #0f0c29;
+        background: #00fff7;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        text-transform: uppercase;
+        box-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #0ff;
+        color: #000;
+        box-shadow: 0 0 20px #00fff7, 0 0 40px #00fff7;
+    }
+
+</style>
+</head>
+<body>
+
+<h1>AI Tools Catalog</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Features</th>
+            <th>Access</th>
+            <th>Price</th>
+            <th>Website</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ChatGPT</td>
+            <td>Text / Multimodal</td>
+            <td>Conversation, text generation, summaries, translations</td>
+            <td>Freemium / Paid plans</td>
+            <td>$0 / $20+ per month</td>
+            <td><button class="btn" onclick="window.open('https://chat.openai.com', '_blank')">Visit</button></td>
+        </tr>
+        <tr>
+            <td>Midjourney</td>
+            <td>Image Generation</td>
+            <td>Artistic image creation from prompts</td>
+            <td>Subscription</td>
+            <td>$10-$50 per month</td>
+            <td><button class="btn" onclick="window.open('https://www.midjourney.com', '_blank')">Visit</button></td>
+        </tr>
+        <tr>
+            <td>GitHub Copilot</td>
+            <td>Code Assistance</td>
+            <td>Code completion, suggestions, integration with IDEs</td>
+            <td>Subscription</td>
+            <td>$10 per month</td>
+            <td><button class="btn" onclick="window.open('https://github.com/features/copilot', '_blank')">Visit</button></td>
+        </tr>
+        <tr>
+            <td>Runway</td>
+            <td>Video / Editing</td>
+            <td>AI video generation, editing, inpainting</td>
+            <td>Freemium / Paid</td>
+            <td>$0-$76 per month</td>
+            <td><button class="btn" onclick="window.open('https://runwayml.com', '_blank')">Visit</button></td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+		</html
